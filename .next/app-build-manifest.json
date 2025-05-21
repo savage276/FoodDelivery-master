@@ -30,6 +30,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/restaurants/[id]/reviews/page.js"
+    ],
+    "/restaurants/[id]/promotions/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/restaurants/[id]/promotions/page.js"
     ]
   }
 }
