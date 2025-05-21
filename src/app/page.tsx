@@ -26,11 +26,11 @@ export default function Home() {
 
   return (
     <Container>
-      <Title>Welcome to Food Ordering System</Title>
+      <Title>欢迎使用外卖点餐系统</Title>
       <Card>
-        <h2>Start Ordering</h2>
-        <p>Browse restaurants and order your favorite food</p>
-        <Button onClick={handleViewRestaurants}>View Restaurants</Button>
+        <h2>开始点餐</h2>
+        <p>浏览商家，选择你喜欢的美食</p>
+        <Button onClick={handleViewRestaurants}>查看商家</Button>
       </Card>
     </Container>
   )

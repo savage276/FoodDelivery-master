@@ -46,36 +46,36 @@ const Avatar = styled.div`
 export default function Profile() {
   return (
     <Container>
-      <Title>Personal Center</Title>
+      <Title>个人中心</Title>
       <Grid>
         <Section>
-          <h2>Basic Information</h2>
+          <h2>基本信息</h2>
           <UserInfo>
             <Avatar />
             <div>
-              <h3>User Name</h3>
-              <p>Phone: ***********</p>
+              <h3>用户名</h3>
+              <p>手机号：***********</p>
             </div>
           </UserInfo>
-          <Button variant="outline">Edit Profile</Button>
+          <Button variant="outline">编辑资料</Button>
         </Section>
 
         <Section>
-          <h2>Delivery Addresses</h2>
-          <p>No addresses added yet</p>
-          <Button variant="outline">Add Address</Button>
+          <h2>收货地址</h2>
+          <p>暂无收货地址</p>
+          <Button variant="outline">添加地址</Button>
         </Section>
 
         <Section>
-          <h2>Order History</h2>
-          <p>No orders yet</p>
-          <Button variant="outline">View All Orders</Button>
+          <h2>历史订单</h2>
+          <p>暂无订单记录</p>
+          <Button variant="outline">查看全部订单</Button>
         </Section>
 
         <Section>
-          <h2>Favorite Restaurants</h2>
-          <p>No favorites yet</p>
-          <Button variant="outline">Browse Restaurants</Button>
+          <h2>收藏商家</h2>
+          <p>暂无收藏商家</p>
+          <Button variant="outline">浏览商家</Button>
         </Section>
       </Grid>
     </Container>

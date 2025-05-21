@@ -58,27 +58,26 @@ const Review = styled(Card)`
 export default function Reviews() {
   return (
     <Container>
-      <Title>Restaurant Reviews</Title>
+      <Title>商家评价</Title>
       <Card>
         <RatingStats>
           <AverageRating>
             <h2>4.5</h2>
-            <p>Average Rating</p>
+            <p>平均评分</p>
           </AverageRating>
           <RatingBars>
-            {/* Rating distribution bars will go here */}
-            <p>Rating distribution coming soon...</p>
+            <p>评分分布即将上线...</p>
           </RatingBars>
         </RatingStats>
 
         <ReviewList>
           <Review elevation="sm">
-            <h3>Great food and service!</h3>
-            <p>The food was delicious and arrived quickly. Will order again!</p>
+            <h3>菜品美味，服务周到！</h3>
+            <p>出餐速度快，包装很好，菜品保温效果好。</p>
           </Review>
           <Review elevation="sm">
-            <h3>Excellent quality</h3>
-            <p>Everything was perfect, from ordering to delivery.</p>
+            <h3>非常满意</h3>
+            <p>从下单到送达全程体验都很好，会继续光顾。</p>
           </Review>
         </ReviewList>
       </Card>

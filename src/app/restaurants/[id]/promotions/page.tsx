@@ -37,30 +37,30 @@ const Promotion = styled(Card)`
 export default function Promotions() {
   return (
     <Container>
-      <Title>Current Promotions</Title>
+      <Title>优惠活动</Title>
       <Grid>
         <Promotion>
-          <h2>New User Special</h2>
-          <p>Get 20% off on your first order!</p>
-          <Button fullWidth>Claim Offer</Button>
+          <h2>新用户专享</h2>
+          <p>首单立减20元！</p>
+          <Button fullWidth>立即领取</Button>
         </Promotion>
 
         <Promotion>
-          <h2>Lunch Deal</h2>
-          <p>¥10 off orders over ¥50 between 11am-2pm</p>
-          <Button fullWidth>Get Coupon</Button>
+          <h2>午市特惠</h2>
+          <p>11:00-14:00 下单满50减10</p>
+          <Button fullWidth>获取优惠券</Button>
         </Promotion>
 
         <Promotion>
-          <h2>Weekend Special</h2>
-          <p>Free delivery on orders over ¥100</p>
-          <Button fullWidth>Learn More</Button>
+          <h2>周末福利</h2>
+          <p>满100元免配送费</p>
+          <Button fullWidth>查看详情</Button>
         </Promotion>
 
         <Promotion>
-          <h2>VIP Membership</h2>
-          <p>Join our VIP program for exclusive benefits</p>
-          <Button variant="outline" fullWidth>Join Now</Button>
+          <h2>会员特权</h2>
+          <p>加入会员享专属优惠</p>
+          <Button variant="outline" fullWidth>立即开通</Button>
         </Promotion>
       </Grid>
     </Container>
