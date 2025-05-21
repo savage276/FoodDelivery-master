@@ -3,6 +3,7 @@
 import styled from 'styled-components'
 import Button from '@/components/ui/Button'
 import Card from '@/components/ui/Card'
+import { useRouter } from 'next/navigation'
 
 const Container = styled.div`
   max-width: var(--max-width);
@@ -17,13 +18,19 @@ const Title = styled.h1`
 `
 
 export default function Home() {
+  const router = useRouter()
+
+  const handleViewRestaurants = () => {
+    router.push('/restaurants')
+  }
+
   return (
     <Container>
       <Title>Welcome to Food Ordering System</Title>
       <Card>
         <h2>Start Ordering</h2>
         <p>Browse restaurants and order your favorite food</p>
-        <Button>View Restaurants</Button>
+        <Button onClick={handleViewRestaurants}>View Restaurants</Button>
       </Card>
     </Container>
   )
