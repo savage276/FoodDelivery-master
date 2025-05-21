@@ -4,11 +4,11 @@ import { createBrowserRouter} from "react-router-dom";
 
 const router = createBrowserRouter([
     {
-        path: "/Login",
+        path: "/",
         element: <Login />
     },
     {
-        path: "/",
+        path: "/home",
         element: <Home />
     }
 ])
